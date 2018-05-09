@@ -1,0 +1,23 @@
+body{
+  padding-top: 10px;
+  background-color: black;
+  color: lime; 
+  font-family: "Courier";
+} 
+
+
+.nav-link{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 4s steps(60, end); 
+  display: inline;
+  padding-right: 3rem;
+}
+
+iframe{
+  display: block;
+}

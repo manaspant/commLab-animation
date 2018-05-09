@@ -1,0 +1,166 @@
+* 	{margin: 0;
+	padding: 0;}
+html, body {
+/*	background-image: url('iu-5.jpeg');
+*/	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;}
+body {
+	background-color:#fcfcfc;
+	background-repeat: repeat-x;
+	font-size: 62.5%;
+}
+
+/* #container {
+	margin-top: 12px;
+	margin: auto;
+	width: 622px;
+	color: #CBCBCB;
+	font-family: Microsoft Sans Serif, "Times New Roman", Times, serif;
+	font-size: 9pt;
+}
+
+#header {
+	margin: auto; */
+/*	background-image: url(images/scene1_ver1.png);
+*/
+	/* height: 349px;
+	width: 600px;
+}
+
+
+#menu {
+
+	font-family: Microsoft Sans Serif, "Times New Roman", Times, serif;
+	font-size: 8pt;
+	font-style: none;
+	margin-left: 210px;
+	text-align: Right;
+	padding: 6px;
+} */
+
+#main {
+/*	background-image: url(images/scene1_ver1.png);
+*/	padding-left: 200px;
+	padding-right: 40px;
+	text-align: justify;
+	background-repeat: no-repeat;
+	margin:0 auto;
+
+}
+
+.Panel-1 a {
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+}
+.Panel-2  a {
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+}
+.p-3 a {
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+}
+.Panel-4 a {
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+}
+.Panel-5 a {
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: 'Fascinate Inline', cursive;
+}
+#img {
+	margin: 8px;
+}
+
+
+#footer {
+	text-align: center;
+	clear: both;
+	color: 696969;
+	background-color: #0A0A0A;
+	padding: 20px;
+}
+
+/*.float_left {
+	float: left;
+    margin-right: 5px;
+	margin-bottom: 3px;
+}*/
+
+
+p {
+	padding-bottom: 25px;
+}
+
+
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #5C5C5C;
+	background-color: #DBDBDB;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #000000;
+    text-decoration: none;
+}
+
+#navlist li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+img{
+	width: 1000px;
+	height: 650px;
+	margin:0 auto;
+}
+
+h1{
+	color: white;
+}
+
+.bigger:hover{
+	transform: scale(2);
+}
+
+.hidden{
+	display: none;
+}
+
+#text-display{
+	font-size: 20px;
+	color: black;
+}
+
+.next-text3,.next-text4{
+	display: none;
+}
+
+.next{
+	margin-right: 10px;
+}
+
+#dynamic{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}

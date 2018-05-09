@@ -1,0 +1,56 @@
+body {
+  margin: 2rem;
+}
+header { 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+}
+header video { width: 100%; }
+
+svg { 
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0; // needed for FF, Safari, Edge
+  height: 100%;
+}
+
+svg text {
+  font-family: Biko, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 38px;
+}
+
+svg rect {
+  fill: white;
+}
+
+svg > rect {
+    -webkit-mask: url(#mask);
+    mask: url(#mask);
+}
+
+} 
+
+a{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p{
+  color: black;
+  text-decoration: none;
+}
